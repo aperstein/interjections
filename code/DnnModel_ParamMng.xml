@@ -1,0 +1,10 @@
+<Data>
+	<Model Test_Number="1.1">
+		<Directories Train_Extract_Features_Directory="D:\Afeka\FinalProject\DataSets\ExtractFeatures\Orig_Hila+Yaniv_0_520" Test_Extract_Features_Directory="D:\Afeka\FinalProject\DataSets\ExtractFeatures\Orig_Yaniv_600_150" Test_Result_Directory="D:\Afeka\FinalProject\Models\DNN\Tests\Testing\Test"/>
+		<HyperParameters>
+			<General training_epochs="120" num_classes="5" optimizerType="Adam Optimizer" learning_rate="0.009"/>
+			<NumberHiddenUnits hidden_1="280" hidden_2="290" hidden_3="300"/>
+			<HiddenActivationFunction hidden_1="tangent " hidden_2="sigmoid" hidden_3="sigmoid"/>
+		</HyperParameters>
+	</Model>
+</Data>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Data>
+	<directories orig_directory="D:/Afeka/FinalProject/DataSets/Recordings/OrigTmp" target_directory="D:/Afeka/FinalProject/DataSets/Recordings/DataAugmentation/Da_tempo+pitch+bg/Data" background_directory="D:/Afeka/FinalProject/DataSets/Recordings/DataAugmentation/BackgroundNoise"/>
+	<dataAugmentations create_whitenoise="True" number_of_audio_per_speaker="10" wav_target_len="1.55" wav_min_len="0.45" silence_ratio_limit_percent="15">
+		<operation id="1" name="tempo">
+			<param desc="factor">0.86,0.9,0.94,1.06,1.1,1.14</param>
+		</operation>
+		<operation id="2" name="pitch">
+			<param desc="semitone">-2.4,-2,-1.6,1.6,2,2.4</param>
+		</operation>
+		<operation id="3" name="background">
+			<param desc="OrigWavVolume">0.9,0.83</param>
+			<param desc="BckGroundWavVolume">0.1,0.17</param>
+		</operation>
+	</dataAugmentations>
+</Data>

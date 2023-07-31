@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Data>
+	<directories orig_directory="D:\Afeka\FinalProject\DataSets\Recordings\DataAugmentation\Da_tempo+pitch+bg\Data" target_directory="D:\Afeka\FinalProject\DataSets\ExtractFeatures\Da_tempo+pitch+bg_Hila+Yaniv_0_9320"/>
+	<data speakers="_Hila,_Yaniv" number_of_audio_per_speaker="9320" start_count_from="0"></data>
+</Data>
